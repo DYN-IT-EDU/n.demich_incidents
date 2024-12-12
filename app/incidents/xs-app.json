@@ -1,8 +1,8 @@
 {
+  "welcomeFile": "/index.html",
   "authenticationMethod": "route",
   "routes": [
     {
-      "welcomeFile": "/index.html",
       "source": "^/?odata/(.*)$",
       "target": "/odata/$1",
       "destination": "incident-management-srv-api",
