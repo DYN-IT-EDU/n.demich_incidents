@@ -9,6 +9,7 @@
     "@cap-js/hana": "^1",
     "@sap/cds": "^8",
     "@sap/xssec": "^4",
+    "all": "^0.0.0",
     "express": "^4"
   },
   "devDependencies": {
@@ -56,9 +57,6 @@
         "auth": "xsuaa"
       },
       "html5-repo": true,
-      "[hybrid]": {
-        "db": "hana"
-      },
       "destinations": true,
       "workzone": true
     },
